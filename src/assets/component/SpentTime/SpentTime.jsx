@@ -10,7 +10,7 @@ const SpentTime = ({ spentTime }) => {
     return (
         <div>
             <div className=' border-2 border-indigo-300	 h-auto rounded-lg bg-indigo-100 py-3'>
-                <strong className=' font-bold text-lg text-indigo-600 py-3'>Spent time on reading: {total} min</strong>
+                <strong className=' font-bold text-lg text-indigo-600 py-3'>Spent time on read: {total} min</strong>
             </div>
         </div>
     );
