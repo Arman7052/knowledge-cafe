@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Card from '../Card/Card';
+import Bookmarks from '../Bookmarks/Bookmarks';
 
 const Blogs = () => {
     const [blog, setBlog] = useState([]);
@@ -30,13 +31,10 @@ const Blogs = () => {
                 }
             </div>
             <div className='pt-10'>
-                <div className=' border h-20 rounded-lg bg-indigo-300	pt-3'>
-                    <strong className=' font-semibold text-3xl'>Spent time on read :</strong>
-                </div>
-                <div className='text-start  border rounded-lg mt-4'>
-                    <h1 className=' font-bold text-xl ps-2'>Bookmarked Blogs : {bookmark.length}</h1>
-
-                </div>
+            <div className=' border h-auto rounded-lg bg-indigo-300	py-3'>
+                <strong className=' font-semibold text-xl'>Spent time on read: mins</strong>
+            </div>
+               <Bookmarks bookmarks={bookmark}></Bookmarks>
             </div>
         </div>
     );

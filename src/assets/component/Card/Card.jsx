@@ -6,6 +6,8 @@ const Card = (props) => {
 
     return (
         <div className=' py-2'>
+
+            {/* card section */}
             <div className="card w-auto bg-base-100 shadow-md">
                 <figure><img className=' rounded-md' src={image} alt={image} /></figure>
                 <div className="card-body  text-left">
@@ -17,6 +19,7 @@ const Card = (props) => {
                                 <span className='font-semibold text-sm text-gray-500'>{postDate}</span>
                             </div>
                         </div>
+                        {/* bookmark and time  section */}
                         <div className='flex text-gray-400	gap-3'>
                             <div>{readingTime} min read</div>
                             <div> <button onClick={() => handleAddToBookmark(props.card)} className=''><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
