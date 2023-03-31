@@ -10,7 +10,7 @@ const Blogs = () => {
     }, [])
     return (
         <div className='grid grid-cols-3  gap-4'>
-            <div className='col-span-2'>
+            <div className='col-span-2 '>
                 {
                     blog.map((card) => <Card
                         key={card.id}
@@ -18,7 +18,7 @@ const Blogs = () => {
                     ></Card>)
                 }
             </div>
-            <div>a</div>
+            <div className=''>a</div>
         </div>
     );
 };
