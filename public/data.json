@@ -7,6 +7,7 @@
         "postDate": "Oct 11, 2022",
         "readingTime": 5,
         "title": "National Paradigm Engineer"
+      
     },
     {
         "id": "89e115bc-3295-42c0-8a1e-a56f23c7fde9",
@@ -16,6 +17,7 @@
         "postDate": "Apr 20, 2022",
         "readingTime": 10,
         "title": "Investor Research Engineer"
+        
     },
     {
         "id": "30b42ff8-4e68-436e-8e42-d303e1946bc5",
@@ -25,6 +27,7 @@
         "postDate": "Mar 6, 2023",
         "readingTime": 15,
         "title": "Product Division Associate"
+        
     },
     {
         "id": "d7eb2d92-3a45-41c1-a3da-90e97c3202ee",
@@ -34,5 +37,6 @@
         "postDate": "Mar 24, 2023",
         "readingTime": 12 ,
         "title": "District Mobility Designer"
+       
     }
 ]
