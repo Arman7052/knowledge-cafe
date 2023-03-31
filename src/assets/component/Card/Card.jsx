@@ -6,7 +6,7 @@ const Card = (props) => {
 
     return (
         <div className=' py-2'>
-            <div className="card w-auto bg-base-100">
+            <div className="card w-auto bg-base-100 shadow-md">
                 <figure><img className=' rounded-md' src={image} alt={image} /></figure>
                 <div className="card-body  text-left">
                     <div className='flex justify-between'>
