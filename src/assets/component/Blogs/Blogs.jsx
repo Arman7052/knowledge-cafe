@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react';
 import Card from '../Card/Card';
 import Bookmarks from '../Bookmarks/Bookmarks';
 import SpentTime from '../SpentTime/SpentTime';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Blogs = () => {
     const [blog, setBlog] = useState([]);
@@ -14,19 +16,30 @@ const Blogs = () => {
             .then(data => setBlog(data))
     }, []);
 
-    // spent time
+                   // spent time //
     const handleSpentTime = (card) => {
-        // console.log(card)
         const newTimeSpent = [...timeSpent, card];
         setTimeSpent(newTimeSpent);
     }
 
-    // bookmark section 
+//  ------------------------------------------------------  //
+
+    // bookmark section //
     const handleAddToBookmark = (card) => {
-        // console.log(card)
-        const newBookmark = [...bookmark, card];
-        setBookmark(newBookmark);
+        const isAlreadyBookmarked = bookmark.find((b) => b.id === card.id);
+        if (isAlreadyBookmarked) {
+            toast('This blog post is already bookmarked!', {
+                position: toast.POSITION.TOP_CENTER
+            });
+        } else {
+            const newBookmark = [...bookmark, card];
+            setBookmark(newBookmark);
+
+        }
     }
+
+
+    // --------------------------------------------------------------------------------------------- //
 
 
     return (
@@ -44,9 +57,11 @@ const Blogs = () => {
             <div className='pt-10'>
                 <SpentTime spentTime={timeSpent}></SpentTime>
                 <Bookmarks bookmarks={bookmark}></Bookmarks>
+
             </div>
         </div>
     );
 };
 
 export default Blogs;
+

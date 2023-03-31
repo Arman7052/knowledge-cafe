@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Card = (props) => {
-    const { userName, image, userImage, postDate, readingTime } = props.card;
+    const { userName, image, userImage, postDate, readingTime, title } = props.card;
     const handleSpentTime = props.handleSpentTime;
     const handleAddToBookmark = props.handleAddToBookmark;
 
@@ -32,7 +32,7 @@ const Card = (props) => {
                             </div>
                         </div>
                     </div>
-                    <h2 className="card-title font-bold text-2xl">How to get your first job as a self-taught programmer</h2>
+                    <h2 className="card-title font-bold text-2xl">{title}</h2>
 
                     {/* Spending time calculate */}
 

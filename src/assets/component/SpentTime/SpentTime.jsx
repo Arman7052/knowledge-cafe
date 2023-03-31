@@ -9,8 +9,8 @@ const SpentTime = ({ spentTime }) => {
     console.log(spentTime)
     return (
         <div>
-            <div className=' border h-auto rounded-lg bg-indigo-300	py-3'>
-                <strong className=' font-semibold text-xl'>Spent time on reading: {total} mins</strong>
+            <div className=' border-2 border-indigo-300	 h-auto rounded-lg bg-indigo-100 py-3'>
+                <strong className=' font-bold text-lg text-indigo-600 py-3'>Spent time on reading: {total} min</strong>
             </div>
         </div>
     );
