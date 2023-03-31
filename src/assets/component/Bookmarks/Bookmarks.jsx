@@ -8,9 +8,9 @@ const Bookmarks = ({ bookmarks }) => {
             <div className="bg-gray-200	text-start border rounded-lg mt-4 shadow-md">
                 <h1 className="font-bold text-xl ps-6 py-3">
                     Bookmarked Blogs : {bookmarks.length}
-                    
+
                 </h1>
-                
+
                 <ul className=" ps-4">
                     {bookmarks.map((bookmark) => (
                         <li className=' list-none text-left' key={bookmark.id}>

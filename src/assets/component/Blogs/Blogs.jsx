@@ -16,13 +16,13 @@ const Blogs = () => {
             .then(data => setBlog(data))
     }, []);
 
-                   // spent time //
+    // spent time //
     const handleSpentTime = (card) => {
         const newTimeSpent = [...timeSpent, card];
         setTimeSpent(newTimeSpent);
     }
 
-//  ------------------------------------------------------  //
+    //  ------------------------------------------------------  //
 
     // bookmark section //
     const handleAddToBookmark = (card) => {

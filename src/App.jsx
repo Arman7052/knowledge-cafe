@@ -8,7 +8,7 @@ import Answers from './assets/component/Q$A/Answers'
 
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   return (
     <div className="App lg:mx-20 ">
