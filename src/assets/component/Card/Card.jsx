@@ -2,7 +2,8 @@ import React from 'react';
 
 const Card = (props) => {
     const { userName, image, userImage, postDate, readingTime } = props.card;
-    const handleAddToBookmark= props.handleAddToBookmark;
+    const handleSpentTime = props.handleSpentTime;
+    const handleAddToBookmark = props.handleAddToBookmark;
 
     return (
         <div className=' py-2'>
@@ -21,6 +22,9 @@ const Card = (props) => {
                         </div>
                         {/* bookmark and time  section */}
                         <div className='flex text-gray-400	gap-3'>
+
+
+
                             <div>{readingTime} min read</div>
                             <div> <button onClick={() => handleAddToBookmark(props.card)} className=''><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
                                 <path strokeLinecap="round" strokeLinejoin="round" d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0111.186 0z" />
@@ -30,7 +34,9 @@ const Card = (props) => {
                     </div>
                     <h2 className="card-title font-bold text-2xl">How to get your first job as a self-taught programmer</h2>
 
-                    <button className=' underline underline-offset-auto font-bold text-left text-indigo-700	pt-2'>Mark As Read</button>
+                    {/* Spending time calculate */}
+
+                    <button onClick={() => handleSpentTime(props.card)} className=' underline underline-offset-auto font-bold text-left text-indigo-700	pt-2'>Mark As Read</button>
 
                 </div>
             </div>

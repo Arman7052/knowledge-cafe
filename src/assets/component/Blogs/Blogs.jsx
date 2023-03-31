@@ -1,9 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import Card from '../Card/Card';
 import Bookmarks from '../Bookmarks/Bookmarks';
+import SpentTime from '../SpentTime/SpentTime';
 
 const Blogs = () => {
     const [blog, setBlog] = useState([]);
+    const [timeSpent, setTimeSpent] = useState([]);
     const [bookmark, setBookmark] = useState([]);
 
     useEffect(() => {
@@ -11,6 +13,14 @@ const Blogs = () => {
             .then(res => res.json())
             .then(data => setBlog(data))
     }, []);
+
+    // spent time
+    const handleSpentTime = (card) => {
+        // console.log(card)
+        const newTimeSpent = [...timeSpent, card];
+        setTimeSpent(newTimeSpent);
+    }
+
     // bookmark section 
     const handleAddToBookmark = (card) => {
         // console.log(card)
@@ -26,15 +36,14 @@ const Blogs = () => {
                     blog.map((card) => <Card
                         key={card.id}
                         card={card}
+                        handleSpentTime={handleSpentTime}
                         handleAddToBookmark={handleAddToBookmark}
                     ></Card>)
                 }
             </div>
             <div className='pt-10'>
-            <div className=' border h-auto rounded-lg bg-indigo-300	py-3'>
-                <strong className=' font-semibold text-xl'>Spent time on read: mins</strong>
-            </div>
-               <Bookmarks bookmarks={bookmark}></Bookmarks>
+                <SpentTime spentTime={timeSpent}></SpentTime>
+                <Bookmarks bookmarks={bookmark}></Bookmarks>
             </div>
         </div>
     );
