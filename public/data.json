@@ -1,38 +1,38 @@
 [
     {
         "id": "74629670-d1b7-4afb-a601-7a2f66a07ebd",
-        "user-name": "Matthew Koelpin",
+        "userName": "Matthew Koelpin",
         "image": "https://images.unsplash.com/photo-1537432376769-00f5c2f4c8d2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1925&q=80",
-        "user-image": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/927.jpg",
-        "post-date": "Tue, Oct 11, 2022,",
-        "reading-time": 5,
+        "userImage": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/927.jpg",
+        "postDate": "Tue, Oct 11, 2022,",
+        "readingTime": 5,
         "title": "National Paradigm Engineer"
     },
     {
         "id": "89e115bc-3295-42c0-8a1e-a56f23c7fde9",
-        "user-name": "Casey Cruickshank II",
+        "userName": "Casey Cruickshank II",
         "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
-        "user-image": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/242.jpg",
-        "post-date": "Wed, Apr 20, 2022",
-        "reading-time": 10,
+        "userImage": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/242.jpg",
+        "postDate": "Wed, Apr 20, 2022",
+        "readingTime": 10,
         "title": "Investor Research Engineer"
     },
     {
         "id": "30b42ff8-4e68-436e-8e42-d303e1946bc5",
-        "user-name": "Dr. Shari Smitham",
+        "userName": "Dr. Shari Smitham",
         "image": "https://images.unsplash.com/photo-1624377632657-3902bfd35958?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
-        "user-image": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1205.jpg",
-        "post-date": "Mon, Mar 6, 2023",
-        "reading-time": 15,
+        "userImage": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1205.jpg",
+        "postDate": "Mon, Mar 6, 2023",
+        "readingTime": 15,
         "title": "Product Division Associate"
     },
     {
         "id": "d7eb2d92-3a45-41c1-a3da-90e97c3202ee",
-        "user-name": "Michelle Hayes",
+        "userName": "Michelle Hayes",
         "image": "https://images.unsplash.com/photo-1537498425277-c283d32ef9db?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1178&q=80",
-        "user-image": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/91.jpg",
-        "post-date": "Fri, Mar 24, 2023",
-        "reading-time": 12 ,
+        "userImage": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/91.jpg",
+        "postDate": "Fri, Mar 24, 2023",
+        "readingTime": 12 ,
         "title": "District Mobility Designer"
     }
 ]
