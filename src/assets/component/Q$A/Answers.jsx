@@ -16,7 +16,7 @@ const Answers = () => {
 
                 <div className='border-2 py-2 my-4 bg-violet-300	rounded-md'>
                     <li className='bg-gray-100	font-bold text-xl  m-3 mr-4 rounded-md h-auto p-2 shadow-sm'>Question: 3 <br /> What can useEffect do other than loadData?</li>
-                    <li className='bg-gray-50	font-bold text-text-sm text-justify	m-2  border-2 rounded-md h-auto p-2 shadow-lg'>Answer : <br />React's useEffect hook is capable of more than just loading data. When a component mounts or receives new props, it can change the document title, record user interactions using event listeners, clean up external resources, start animations, or have side effects. In essence, useEffect executes code when specific criteria are satisfied, like when the component mounts or updates, enabling more complicated functionality and a well-structured code base.</li>
+                    <li className='bg-gray-50	font-bold text-text-sm text-justify	m-2  border-2 rounded-md h-auto p-2 shadow-lg'>Answer : <br />React's useEffect hook is capable of more than just loading data. When a component mounts or receives new props, it can change the document title, record user interactions using event listeners, clean up external resources, start animations, or have side effects. In essence, useEffect executes code when specific criteria are satisfied, like when the component mounts or updates, enabling more complicated functionality and a well-structured code base . </li>
                 </div>
 
                 <div className='border-2 py-2 my-4 bg-blue-300	rounded-md'>
